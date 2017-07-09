@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf12510130322720" configfile="/Compendium/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="*" x="122" y="178" id="pf125224501576524" outlinks="pf12525617231390" path="*"/>
+  <nodes xsi:type="pageflow:PFPage" name="chapterWelcome" x="122" y="562" id="pf125224501576526" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" path="chapterWelcome.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="chapterWelcome" x="338" y="178" id="pf12525617231391" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf12525617231390" path="chapterWelcome"/>
+  <nodes xsi:type="pageflow:PFPage" name="index" id="pf12530798730690" referenceLink="//@navigationRule.1/@fromViewId|" outlinks="pf12530798730691" path="/index.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="welcome" id="pf12530798730692" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" inlinks="pf12530798730691" path="/welcome.jsp"/>
+  <links id="pf12525617231390" target="pf12525617231391" source="pf125224501576524" outcome="chapterWelcome"/>
+  <links id="pf12530798730691" target="pf12530798730692" source="pf12530798730690" outcome="login"/>
+</pageflow:Pageflow>

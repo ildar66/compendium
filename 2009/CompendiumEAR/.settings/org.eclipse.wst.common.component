@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CompendiumEAR">
+        <wb-resource deploy-path="/" source-path="/"/>
+        <dependent-module archiveName="CompendiumJPA.jar" deploy-path="/" handle="module:/resource/CompendiumJPA/CompendiumJPA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Compendium-AppLogic.jar" deploy-path="/" handle="module:/resource/Compendium-AppLogic/Compendium-AppLogic">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/resource/Compendium/Compendium">
+            <dependent-object>Module_1254916238560</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/resource/CompendiumJPA_EJB/CompendiumJPA_EJB">
+            <dependent-object>Module_1254916254575</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.etools.model2.diagram.web.WebDiagramEditorSignature" version="7.0.0"><feature description="" name="Web Diagram Editor" url="" version="7.1.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DiagramModel="http://www.ibm.com/etools/7.0/DiagramModel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation">
+  <notation:Diagram xmi:id="_95nbgY41Ed6x_YleHoQ8wg" type="wde.element" element="_95nbhI41Ed6x_YleHoQ8wg" name="WebDiagram.gph" measurementUnit="Himetric">
+    <children xmi:id="_RasDYOAEEd6N8vntTU9gVw" type="com.ibm.etools.model2.diagram.web.WebPageNode" element="_RZfwkOAEEd6N8vntTU9gVw">
+      <styles xmi:type="notation:ShapeStyle" xmi:id="_RasDYeAEEd6N8vntTU9gVw" fillColor="16047566" lineColor="8421504"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RasDY-AEEd6N8vntTU9gVw" x="1347" y="1664"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_95nbgo41Ed6x_YleHoQ8wg"/>
+  </notation:Diagram>
+  <DiagramModel:Model xmi:id="_95nbg441Ed6x_YleHoQ8wg" id="com.ibm.etools.model2.diagram.web.WebDiagram">
+    <diagram xmi:id="_95nbhI41Ed6x_YleHoQ8wg" titleProperty="_96gzYI41Ed6x_YleHoQ8wg" type="com.ibm.etools.model2.diagram.web.WebDiagram" version="7.0">
+      <persistedProperties xmi:id="_96gzYI41Ed6x_YleHoQ8wg" name="Name" value="Web Diagram"/>
+      <nodes xmi:id="_RZfwkOAEEd6N8vntTU9gVw" titleProperty="_RaFmcOAEEd6N8vntTU9gVw" type="com.ibm.etools.model2.diagram.web.WebPageNode">
+        <persistedProperties xmi:id="_RaFmcOAEEd6N8vntTU9gVw" name="web.path.key" value="sections/dictionaryForKK/questionList.jsp" editable="true"/>
+      </nodes>
+    </diagram>
+  </DiagramModel:Model>
+</xmi:XMI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE faces-config PUBLIC
+    "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.1//EN"
+    "http://java.sun.com/dtd/web-facesconfig_1_1.dtd">
+
+<faces-config>
+	<application>
+		<state-manager>com.ibm.faces.application.DevelopmentStateManager</state-manager>
+		<property-resolver>com.ibm.faces.databind.SelectItemsPropResolver</property-resolver>
+		<variable-resolver>com.ibm.faces.databind.SelectItemsVarResolver</variable-resolver>
+	</application>
+	<factory>
+		<faces-context-factory>com.ibm.faces.context.AjaxFacesContextFactory</faces-context-factory>
+		<render-kit-factory>com.ibm.faces.renderkit.AjaxRenderKitFactory</render-kit-factory>
+	</factory>
+	
+   <navigation-rule>
+      <navigation-case>
+         <from-outcome>chapterWelcome</from-outcome>
+         <to-view-id>chapterWelcome</to-view-id>
+      </navigation-case>
+   </navigation-rule>
+   
+   <navigation-rule>
+      <from-view-id>/index.jsp</from-view-id>
+      <navigation-case>
+         <from-outcome>login</from-outcome>
+         <to-view-id>/welcome.jsp</to-view-id>
+      </navigation-case>
+   </navigation-rule>
+   
+   <managed-bean> 
+      <managed-bean-name>error</managed-bean-name>
+      <managed-bean-class>com.corejsf.ErrorBean</managed-bean-class> 
+      <managed-bean-scope>session</managed-bean-scope> 
+   </managed-bean>
+   
+
+	<managed-bean>
+		<managed-bean-name>questionListBean</managed-bean-name>
+		<managed-bean-class>ru.masterdm.compendium.beans.QuestionListBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>questionTypeBean</managed-bean-name>
+		<managed-bean-class>ru.masterdm.compendium.beans.QuestionTypeBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>departmentListBean</managed-bean-name>
+		<managed-bean-class>ru.masterdm.compendium.beans.DepartmentListBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>departmentCrCoListBean</managed-bean-name>
+		<managed-bean-class>ru.masterdm.compendium.beans.DepartmentCrCoListBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>	
+	<managed-bean>
+		<managed-bean-name>userListBean</managed-bean-name>
+		<managed-bean-class>ru.masterdm.compendium.beans.UserListBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>userToRoleListBean</managed-bean-name>
+		<managed-bean-class>ru.masterdm.compendium.beans.UserToRoleListBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>userToRoleCreditCommitteeListBean</managed-bean-name>
+		<managed-bean-class>ru.masterdm.compendium.beans.UserToRoleCreditCommitteeListBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>userToRoleRatingListBean</managed-bean-name>
+		<managed-bean-class>ru.masterdm.compendium.beans.UserToRoleRatingListBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>	
+	<managed-bean>
+		<managed-bean-name>userBean</managed-bean-name>
+		<managed-bean-class>ru.masterdm.compendium.beans.UserBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>operatorBean</managed-bean-name>
+		<managed-bean-class>com.corejsf.OperatorBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+
+	<lifecycle>
+		<phase-listener>com.ibm.faces.webapp.ValueResourcePhaseListener</phase-listener>
+	</lifecycle>
+
+</faces-config>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application id="Application_ID" version="5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd">
+	<display-name>CompendiumEAR</display-name>
+	<module>
+		<web>
+			<web-uri>Compendium.war</web-uri>
+			<context-root>compendium</context-root>
+		</web>
+	</module>
+	<module>
+		<ejb>CompendiumJPA_EJB.jar</ejb>
+	</module>
+	<security-role>
+		<role-name>AllAuthenticated</role-name>
+	</security-role>
+	<security-role>
+		<role-name>administratorUsers</role-name>
+	</security-role>
+	<security-role>
+		<role-name>administratorDictionary</role-name>
+	</security-role>
+	<security-role>
+		<role-name>administratorApprove</role-name>
+	</security-role>
+	<security-role>
+		<role-name>administratorRoles</role-name>
+	</security-role></application>

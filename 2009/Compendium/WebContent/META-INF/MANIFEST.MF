@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: CompendiumJPA_EJB.jar 
+ Compendium-AppLogic.jar
+UseEJB61FEPScanPolicy: true
+

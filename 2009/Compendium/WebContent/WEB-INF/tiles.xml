@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+  "http://struts.apache.org/dtds/tiles-config_1_1.dtd">
+
+<tiles-definitions>
+   <definition name="menu-header-content" path="/headerMenuContentLayout.jsp">
+      <put name="gridClass"           value="headerMenuContent"/>
+      <put name="headerClass"         value="header"/>
+      <put name="menuColumnClass"     value="menuColumn"/>
+      <put name="contentColumnClass"  value="contentColumn"/>
+   </definition>
+   
+   <definition name="menu-content" path="/menuContentLayout.jsp">
+      <put name="gridClass"           value="menuContent"/>
+      <put name="menuColumnClass"     value="menuColumn"/>
+      <put name="contentColumnClass"  value="contentColumn"/>
+   </definition>   
+
+   <definition name="sectionExt" extends="menu-header-content">
+      <put name="header"  value="/sectionHeader.jsp"/>
+      <put name="menu"    value="/sectionMenu.jsp"/>
+      <put name="content" value="/sectionContent.jsp"/>
+   </definition>
+   
+   <definition name="section" extends="menu-content">
+      <put name="menu"    value="/sectionMenu.jsp"/>
+      <put name="content" value="/sectionContent.jsp"/>
+   </definition>   
+
+   <definition name="compendium" path="/compendiumLayout.jsp"
+         controllerClass="com.corejsf.CompendiumTileController">
+      <put name="header" value="/sectionSelector.jsp"/>
+      <put name="section" value="section"/>
+   </definition>
+   
+   <definition name="chapterWelcome.tiles" extends="compendium">
+      <put name="section" value="/generalDictionary/chapterWelcome.jsp"/>
+   </definition>   
+   
+   
+</tiles-definitions>

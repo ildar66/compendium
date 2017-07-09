@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/runtimes/base_v7/lib/j2ee.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/runtimes/base_v7/derby/lib/derby.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/runtimes/base_v7/plugins/com.ibm.ffdc.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/runtimes/base_v7/plugins/com.ibm.ws.jpa.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/runtimes/base_v7/plugins/com.ibm.ws.prereq.commons-collections.jar"/>
+	<classpathentry kind="lib" path="G:/apps/jdbc-drivers/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="G:/apps/jdbc-drivers/ojdbc5.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CompendiumJPA"/>
+	<classpathentry kind="output" path="src"/>
+</classpath>

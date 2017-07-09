@@ -1,0 +1,95 @@
+.title { font-size: 18pt; margin-bottom: 20px; color: green; }
+.dataTableMain { border-style: solid; border-color: darkgray; }
+.dataTableTop { height: 30px; background: #0336a9; border-color: white; }
+.dataTableTop td { padding-left: 2px; font-weight: bold; font-size: 12pt; }
+.dataTableHeader td { padding-left: 2px; background: #404040; border-style: solid; font-weight: bold; font-size: 10pt; border-width: 1px; border-color: silver; }
+.dataTableEven { padding: 4px; font-size: 10pt; color: #000000; background: #ffffff; }
+.dataTableOdd { padding: 4px; font-size: 10pt; color: #000000; background: #ecf3fb; }
+.dataTableBottom { height:30px; background:#0336a9; font-size:9pt; font-weight: bold; }
+.dataTableBottom a { font-weight: normal; }
+.compendiumHeader {
+   width: 100%;
+   text-align: left;
+   vertical-align: top;
+   font-weight: bold;
+}
+.links {
+   width: 85px;
+   vertical-align: top;
+   /*text-align: center;*/
+   margin-left:10px;
+}
+.linksColumn {
+   vertical-align: top;
+   /*text-align: center;*/
+}
+.compendium {
+   vertical-align: top;
+   width: 100%;
+   height: 100%;
+}
+.compendiumHeader1 {
+   width: 100%;
+   text-align: left;
+   vertical-align: top;
+   background-color: #ddd;
+   font-weight: lighter;
+   border: thin solid #777;
+}
+.sectionHeader {
+   width: 100%;
+   text-align: center;
+   background-color: #eee;
+   border: thin solid CornflowerBlue;
+}
+.sectionTitle {
+   text-align: center;
+   font-style: italic;
+   font-size: 1.3em;
+   font-family: Helvetica;
+}
+.headerMenuContent {
+   vertical-align: top;
+   width: 100%;
+   height: 100%;
+}
+.menuContent {
+   vertical-align: top;
+   width: 100%;
+   height: 100%;
+}
+.header {
+   width: 100%;
+}
+.headerRow {
+   width: 100%;
+   text-align: center;
+   background-color: #eee;
+   border: thin solid CornflowerBlue;
+}
+
+.menuColumn {
+   vertical-align: top;
+   background-color: #eee;
+   /*border: thin solid blue;*/
+}
+.chapterColumn {
+   vertical-align: top;
+   text-align: left;
+   width: *;
+   padding: 3px;
+}
+.contentColumn {
+   vertical-align: top;
+   text-align: left;
+   width: *;
+}
+.links {
+   width: 85px;
+   vertical-align: top;
+   /*text-align: center;*/
+}
+.linksColumn {
+   vertical-align: top;
+   /*text-align: center;*/
+}

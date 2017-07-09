@@ -1,0 +1,237 @@
+/* Styles for Tree examples */
+
+.normalTreeCell td {
+  font-size: 90%;
+  padding-right: 2px;
+  text-align: center;
+}
+.blueTreeCell {
+  text-decoration: underline;
+  color: #316ac5;
+  cursor: default;
+}
+.whiteTreeCell {
+  background-color: #316ac5;
+  color: white;
+  cursor: pointer;
+}
+
+ /** These are custom styles for this example **/
+.treeCellBold td {
+  font-size: 90%;
+  font-weight: bold;
+  padding-right: 2px;
+  text-align: center;
+}
+.treeCellItalic td {
+  font-size: 90%;
+  font-style: italic;
+  padding-right: 2px;
+  text-align: center;
+}
+
+.outerTreeStyle {
+	color: WindowText;
+	border-width: 0px;
+	border-style: none;
+	padding: 0px;
+	font-weight: 400
+}
+
+.nodeStyle {
+	padding: 0px;
+	letter-spacing: 0;
+	border-collapse: collapse;
+	table-layout: fixed
+}
+
+.tdStyle {
+	padding: 0px;
+	margin: 0px;
+	width: 200px
+}
+
+.labelNormalStyle {
+	font-size: 11px;
+	color: #000000;
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+
+.nodeImageStyle {
+	border-right: 0px;
+	border-top: 0px;
+	border-left: 0px;
+	width: 19px;
+	border-bottom: 0px;
+	height: 16px
+}
+
+.labelHighlightStyle {
+	font-size: 11px;
+	color: #000000;
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold
+}
+
+.labelMouseoverStyle {
+	font-size: 11px;
+	color: #000000;
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-style: italic
+}
+
+.labelDragoverStyle {
+	font-size: 11px;
+	color: #000000;
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-style: italic
+}
+
+.linkTextStyle {
+	text-decoration: none
+}
+
+.classForTreeSysIcons {
+	
+}
+
+.tdTreeTabStyle {
+	padding-left: 1px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 200px;
+	margin: 0px
+}
+
+.tdTableStyle {
+	width: 200px;
+	padding-left: 3px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px
+}
+
+.headerStyle {
+	width: 200px;
+	background-color: ThreeDFace;
+	color: WindowText;
+	border-width: 1px;
+	border-style: solid;
+	border-color: ThreeDShadow;
+	padding-left: 1px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px
+}
+
+.tree {
+	
+}
+
+.tree_outerTreeStyle {
+	color: WindowText;
+	border-width: 0px;
+	border-style: none;
+	padding: 0px;
+	font-weight: 400
+}
+
+.tree_nodeStyle {
+	padding: 0px;
+	letter-spacing: 0;
+	border-collapse: collapse;
+	table-layout: fixed
+}
+
+.tree_tdStyle {
+	padding: 0px;
+	margin: 0px;
+	width: 200px
+}
+
+.tree_labelNormalStyle {
+	font-size: 11px;
+	color: #000000;
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+
+.tree_nodeImageStyle {
+	border: 0px;
+	width: 19px;
+	height: 16px;
+	margin: 0px;
+	padding: 0px
+}
+
+.tree_labelHighlightStyle {
+	font-size: 11px;
+	color: #000000;
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold
+}
+
+.tree_labelMouseoverStyle {
+	font-size: 11px;
+	color: #000000;
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-style: italic
+}
+
+.tree_labelDragoverStyle {
+	font-size: 11px;
+	color: #000000;
+	background-color: #bbbbbb;
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-style: italic
+}
+
+.tree_linkTextStyle {
+	text-decoration: none
+}
+
+.document{
+	text-decoration: none
+}
+.documentSelected{
+	font: bold;
+	font-weight: bold; 
+}
+
+.tree_classForTreeSysIcons {
+	
+}
+
+.tree_tdTreeTabStyle {
+	padding-left: 1px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 200px;
+	margin: 0px
+}
+
+.tree_tdTableStyle {
+	width: 200px;
+	padding-left: 3px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px
+}
+
+.tree_headerStyle {
+	width: 200px;
+	background-color: ThreeDFace;
+	color: WindowText;
+	border-width: 1px;
+	border-style: solid;
+	border-color: ThreeDShadow;
+	padding-left: 1px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px
+}}

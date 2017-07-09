@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections:connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connections="http://www.ibm.com/websphere/wdo/connections">
+  <connection id="connToOracle">
+    <development xsi:type="connections:rsc-live-connection" id="connToOracle_dev" name="connToOracle"/>
+    <runtime xsi:type="connections:datasource-connection" auto-deploy="true" class-location="D:\sqlDrivers\ojdbc14.jar" id="connToOracle_runtime" classname="oracle.jdbc.pool.OracleConnectionPoolDataSource" database-name="vtbloans" jndi-name="jdbc/connToOracle" port-number="1521" resource-reference-name="connToOracle" server-name="192.128.0.51" sql-vendor-type="52" userid="DAROV"/>
+  </connection>
+</connections:connections>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+	<persistence-unit name="CompendiumJPA">
+		<jta-data-source>jdbc/LOANS</jta-data-source>
+		<class>ru.masterdm.compendium.entities.UserJPA</class>
+		<class>ru.masterdm.compendium.entities.UserInRoleJPAPK</class>
+		<class>ru.masterdm.compendium.entities.UserInRoleJPA</class>
+		<class>ru.masterdm.compendium.entities.RoleJPA</class>
+		<class>ru.masterdm.compendium.entities.QuestionTypeJPA</class>
+		<class>ru.masterdm.compendium.entities.ProcessTypeJPA</class>
+		<class>ru.masterdm.compendium.entities.DepartmentJPAsPar</class>
+		<class>ru.masterdm.compendium.entities.DepartmentJPA</class>
+		<class>ru.masterdm.compendium.entities.CrUserInRoleJPAPK</class>
+		<class>ru.masterdm.compendium.entities.CrUserInRoleJPA</class>
+		<class>ru.masterdm.compendium.entities.CrRoleJPA</class>
+		<class>ru.masterdm.compendium.entities.CcUserRoleJPAPK</class>
+		<class>ru.masterdm.compendium.entities.CcUserRoleJPA</class>
+		<class>ru.masterdm.compendium.entities.CcUserDepJPAPK</class>
+		<class>ru.masterdm.compendium.entities.CcUserDepJPA</class>
+		<class>ru.masterdm.compendium.entities.CcRoleJPA</class>
+	</persistence-unit>
+</persistence>
